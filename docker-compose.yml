@@ -3,10 +3,10 @@ services:
   app:
     build: .
     ports:
-      - "8120:80"
+      - "<outgoing port>:80"
     environment:
-      - APIKEY=
+      - APIKEY=<SendGrid API key>
     volumes:
       - type: bind
-        source: ./app
+        source: <path to the repository>/app
         target: /app/

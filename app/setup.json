@@ -1,11 +1,12 @@
 {
-    "url":
+    "<endpoint>":
         {
-            "title": "your_title",
-            "message_before": "the message before",
-            "from": "from email - should be the same as on sendgrid sender",
+            "title": "<title of the email>",
+            "message_before": "<text before everything else in the email>",
+            "from": "<virtual sender - you should set it up on sendgrid>",
             "recipients":   [
-                                "recipient_email"
+                                "<recipient1>",
+                                "<recipient2>"
                             ]
         }
 }
