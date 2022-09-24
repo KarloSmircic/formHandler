@@ -9,7 +9,7 @@ import os
 
 app = FastAPI()
 
-file = open("conf/setup.json", "r")
+file = open("app/setup.json", "r")
 setup = file.read()
 file.close()
 setup = json.loads(setup)
