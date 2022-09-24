@@ -9,12 +9,13 @@ import os
 
 app = FastAPI()
 
-file = open("setup.json", "r")
+file = open("conf/setup.json", "r")
 setup = file.read()
 file.close()
 setup = json.loads(setup)
 
 APIKEY = os.getenv("APIKEY")
+
 
 @app.post("/{url}/")
 async def root(url, request: Request):
