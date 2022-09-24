@@ -9,5 +9,4 @@ services:
     volumes:
       - type: bind
         source: ./app
-        target:
-          /app/:
+        target: /app/
