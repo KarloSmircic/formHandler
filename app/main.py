@@ -29,9 +29,9 @@ async def root(url, request: Request):
         if k[0] != "_":
             emailOut[k] = v
 
-    html_message = formtype["message_before"]
+    html_message = formtype["message_before"]+"<br>"
     for k, v in emailOut.items():
-        html_message += f"<br>{k}: {v}"
+        html_message += f"<br><b><i>{k.capitalize()}:</b></i> {', '.join(v)}"
 
     message = Mail(
         from_email=formtype["from"],
@@ -50,3 +50,5 @@ async def root(url, request: Request):
         return "There was an error please contact the admin."
 
     return RedirectResponse(a["_redirect"][0])
+
+
