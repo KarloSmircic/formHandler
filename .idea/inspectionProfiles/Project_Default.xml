@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="17">
+            <item index="0" class="java.lang.String" itemvalue="nbclassic" />
+            <item index="1" class="java.lang.String" itemvalue="Babel" />
+            <item index="2" class="java.lang.String" itemvalue="json5" />
+            <item index="3" class="java.lang.String" itemvalue="jupyterlab-server" />
+            <item index="4" class="java.lang.String" itemvalue="ipython" />
+            <item index="5" class="java.lang.String" itemvalue="jupyter-server" />
+            <item index="6" class="java.lang.String" itemvalue="ipykernel" />
+            <item index="7" class="java.lang.String" itemvalue="psutil" />
+            <item index="8" class="java.lang.String" itemvalue="ipython-genutils" />
+            <item index="9" class="java.lang.String" itemvalue="notebook-shim" />
+            <item index="10" class="java.lang.String" itemvalue="anyio" />
+            <item index="11" class="java.lang.String" itemvalue="debugpy" />
+            <item index="12" class="java.lang.String" itemvalue="argon2-cffi" />
+            <item index="13" class="java.lang.String" itemvalue="tomli" />
+            <item index="14" class="java.lang.String" itemvalue="pytz" />
+            <item index="15" class="java.lang.String" itemvalue="jupyterlab" />
+            <item index="16" class="java.lang.String" itemvalue="notebook" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="serial" />
+          <option value="arduinoComunication.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

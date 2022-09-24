@@ -1,0 +1,11 @@
+{
+    "url":
+        {
+            "title": "your_title",
+            "message_before": "the message before",
+            "from": "from email - should be the same as on sendgrid sender",
+            "recipients":   [
+                                "recipient_email"
+                            ]
+        }
+}
