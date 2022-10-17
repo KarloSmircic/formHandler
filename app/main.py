@@ -49,6 +49,6 @@ async def root(url, request: Request):
         print(e)
         return "There was an error please contact the admin."
 
-    return RedirectResponse(a["_redirect"][0])
+    return RedirectResponse(a["_redirect"][0], status_code=303)
 
 
